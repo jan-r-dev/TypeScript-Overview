@@ -37,9 +37,11 @@ const isLeapYear = (year: number): boolean => {
     return false
 }
 
-// 2020 and 1804 were a leap year.
+// These were leap years:
 console.log(isLeapYear(2020))
 console.log(isLeapYear(1804))
+console.log(isLeapYear(2000))
 
-// 2023 was not a leap year.
+// These were not
 console.log(isLeapYear(2023))
+console.log(isLeapYear(1977))
