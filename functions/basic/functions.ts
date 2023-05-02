@@ -14,6 +14,3 @@ const greet_arrow = (person: string = "Stranger"): void => {
     console.log(`Hello there, ${person}.`)
 }
 
-const throw_error = (msg: string = ""): never => {
-    throw new Error(msg)
-}
